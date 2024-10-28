@@ -8,6 +8,7 @@ function ArticleList( { posts } ) {
           key= { article.id }
           title= { article.title }
           date= { article.date }
+          time= { article.minutes }
           preview= { article.preview }
         />
       ))}
